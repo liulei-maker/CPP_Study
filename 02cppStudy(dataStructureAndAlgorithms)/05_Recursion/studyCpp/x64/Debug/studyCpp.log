@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(study01.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  main.cpp
+f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\02_recursion\studycpp\main.cpp(54): warning C4715: “BinarySearch”: 不是所有的控件路径都返回值
+  studyCpp.vcxproj -> F:\01CodeLibrary\06CPPStudy\02cppStudy(dataStructureAndAlgorithms)\02_Recursion\x64\Debug\studyCpp.exe

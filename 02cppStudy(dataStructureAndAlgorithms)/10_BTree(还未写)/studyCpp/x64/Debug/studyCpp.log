@@ -1,0 +1,19 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(study01.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  main.cpp
+f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\09_balanced_binarysearchtree\studycpp\balancedbinarysearchtree.hpp(119): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\09_balanced_binarysearchtree\studycpp\balancedbinarysearchtree.hpp(117): note: 编译 类 模板 成员函数 "BalancedBinarySearchTree<int>::BalancedBinarySearchTree(const std::vector<int,std::allocator<_Ty>> &)" 时
+          with
+          [
+              _Ty=int
+          ]
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\09_balanced_binarysearchtree\studycpp\main.cpp(19): note: 参见对正在编译的函数 模板 实例化“BalancedBinarySearchTree<int>::BalancedBinarySearchTree(const std::vector<int,std::allocator<_Ty>> &)”的引用
+          with
+          [
+              _Ty=int
+          ]
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\09_balanced_binarysearchtree\studycpp\main.cpp(19): note: 参见对正在编译的 类 模板 实例化 "BalancedBinarySearchTree<int>" 的引用
+f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\09_balanced_binarysearchtree\studycpp\balancedbinarysearchtree.hpp(204): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\09_balanced_binarysearchtree\studycpp\balancedbinarysearchtree.hpp(190): note: 编译 类 模板 成员函数 "void BalancedBinarySearchTree<int>::printTree(void)" 时
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\09_balanced_binarysearchtree\studycpp\main.cpp(21): note: 参见对正在编译的函数 模板 实例化“void BalancedBinarySearchTree<int>::printTree(void)”的引用
+f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\09_balanced_binarysearchtree\studycpp\balancedbinarysearchtree.hpp(214): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  studyCpp.vcxproj -> F:\01CodeLibrary\06CPPStudy\02cppStudy(dataStructureAndAlgorithms)\09_Balanced_BinarySearchTree\x64\Debug\studyCpp.exe

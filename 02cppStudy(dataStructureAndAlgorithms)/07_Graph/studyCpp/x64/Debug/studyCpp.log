@@ -1,0 +1,69 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(study01.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  main.cpp
+f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\graph.hpp(100): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\graph.hpp(93): note: 编译 类 模板 成员函数 "Graph<char>::Graph(const std::vector<char,std::allocator<char>>,const std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>)" 时
+          with
+          [
+              _Ty=int
+          ]
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\main.cpp(36): note: 参见对正在编译的函数 模板 实例化“Graph<char>::Graph(const std::vector<char,std::allocator<char>>,const std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>)”的引用
+          with
+          [
+              _Ty=int
+          ]
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\main.cpp(36): note: 参见对正在编译的 类 模板 实例化 "Graph<char>" 的引用
+f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\graph.hpp(381): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\graph.hpp(380): note: 编译 类 模板 成员函数 "bool Graph<char>::MP_BellmanFord(const std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,const int &)" 时
+          with
+          [
+              _Ty=int
+          ]
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\main.cpp(50): note: 参见对正在编译的函数 模板 实例化“bool Graph<char>::MP_BellmanFord(const std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,const int &)”的引用
+          with
+          [
+              _Ty=int
+          ]
+f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\graph.hpp(424): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\graph.hpp(423): note: 编译 类 模板 成员函数 "void Graph<char>::MP_Dijkstra(const std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,const int &)" 时
+          with
+          [
+              _Ty=int
+          ]
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\main.cpp(47): note: 参见对正在编译的函数 模板 实例化“void Graph<char>::MP_Dijkstra(const std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,const int &)”的引用
+          with
+          [
+              _Ty=int
+          ]
+f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\graph.hpp(460): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\graph.hpp(459): note: 编译 类 模板 成员函数 "void Graph<char>::MP_Floyd(const std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,const int &)" 时
+          with
+          [
+              _Ty=int
+          ]
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\main.cpp(48): note: 参见对正在编译的函数 模板 实例化“void Graph<char>::MP_Floyd(const std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,const int &)”的引用
+          with
+          [
+              _Ty=int
+          ]
+f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\graph.hpp(371): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\graph.hpp(364): note: 编译 类 模板 成员函数 "int Graph<char>::findMinPath(const std::vector<std::pair<bool,int>,std::allocator<_Ty>> &)" 时
+          with
+          [
+              _Ty=std::pair<bool,int>
+          ]
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\graph.hpp(438): note: 参见对正在编译的函数 模板 实例化“int Graph<char>::findMinPath(const std::vector<std::pair<bool,int>,std::allocator<_Ty>> &)”的引用
+          with
+          [
+              _Ty=std::pair<bool,int>
+          ]
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\graph.hpp(93): note: 编译 类 模板 成员函数 "Graph<char>::Graph(const std::vector<char,std::allocator<char>>,const std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>)" 时
+          with
+          [
+              _Ty=int
+          ]
+  f:\01codelibrary\06cppstudy\02cppstudy(datastructureandalgorithms)\10_minimumpath\studycpp\main.cpp(36): note: 参见对正在编译的函数 模板 实例化“Graph<char>::Graph(const std::vector<char,std::allocator<char>>,const std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>)”的引用
+          with
+          [
+              _Ty=int
+          ]
+  studyCpp.vcxproj -> F:\01CodeLibrary\06CPPStudy\02cppStudy(dataStructureAndAlgorithms)\10_MinimumPath\x64\Debug\studyCpp.exe

@@ -1,0 +1,5 @@
+﻿  main.cpp
+f:\01codelibrary\06cpp\cppstudy\0employeegroup\study01\main.cpp(57): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+f:\01codelibrary\06cpp\cppstudy\0employeegroup\study01\main.cpp(67): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+f:\01codelibrary\06cpp\cppstudy\0employeegroup\study01\main.cpp(77): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  study01.vcxproj -> F:\01CodeLibrary\06CPP\cppStudy\0employeeGroup\x64\Debug\study01.exe

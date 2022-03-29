@@ -1,0 +1,3 @@
+﻿  main.cpp
+f:\01codelibrary\06cpp\cppstudy\00templateclass\study01\myarray.hpp(106): warning C4715: “MyArray<Person>::operator[]”: 不是所有的控件路径都返回值
+  study01.vcxproj -> F:\01CodeLibrary\06CPP\cppStudy\00templateClass\x64\Debug\study01.exe
